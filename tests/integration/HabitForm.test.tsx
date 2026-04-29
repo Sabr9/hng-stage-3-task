@@ -12,6 +12,6 @@ describe('HabitForm Integration', () => {
 
     fireEvent.change(input, { target: { value: 'Read   Qur\'an' } });
 
-    expect(preview.textContent).toBe('read-quran');
+    expect(preview.textContent).toBe('read-qur-an');
   });
 });
